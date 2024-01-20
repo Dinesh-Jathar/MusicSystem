@@ -81,7 +81,6 @@ pausebtn.addEventListener("click",()=>{
     pausebtn.style.display="none";
     playbtn.style.display="inline";
     videoplayer.pause();
-   // cont.style.opacity=1;
 })
 
 //next
@@ -100,7 +99,6 @@ forwardbtn.addEventListener("click",(e)=>{
     videoplayer.src=video[index].video;
     videoplayer.play();
     audioElement.play();
-   // cont.style.opacity=0.99;
     playbtn.style.display="none";
     pausebtn.style.display="inline";
     console.log(index);
@@ -122,7 +120,6 @@ backwardbtn.addEventListener("click",()=>{
     audioElement.play();
     videoplayer.src=video[index].video;
     videoplayer.play();
-   // cont.style.opacity=0.99;
     playbtn.style.display="none";
     pausebtn.style.display="inline";
     console.log(index);
@@ -141,7 +138,6 @@ songlist.forEach((element)=>{
         videoplayer.src=video[id-1].video;
         videoplayer.play();
         audioElement.play();
-       // cont.style.opacity=0.99;
         playbtn.style.display="none";
         pausebtn.style.display="inline";
      })
