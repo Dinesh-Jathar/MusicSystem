@@ -72,7 +72,7 @@ function play(){
     playbtn.style.display="none";
     pausebtn.style.display="inline"
     videoplayer.play();
-    cont.style.opacity=0.99;
+  //  cont.style.opacity=0.99;
     }
 }
 playbtn.addEventListener("click",play)
