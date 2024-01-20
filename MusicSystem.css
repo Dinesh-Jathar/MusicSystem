@@ -1,0 +1,188 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:antiquewhite ;
+}
+.head{
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.head h1{
+    padding-top: 10px;
+}
+.head div{
+    display: flex;
+    gap: 50px;
+    padding-left: 100px;
+    color: white;
+    padding-top: 20px;
+}
+#cont{
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 30px;
+    height: 100%;
+    width: 81%;
+    background-image:url(./images/bg.jpg);
+    border-radius: 30px;
+}
+.back{
+    position: absolute;
+    z-index: -1;
+    background-color: black;
+    height: 560px;
+    width: 81%;
+    border-radius: 30px;
+}
+#vd{
+    height: 561px;
+    width: 100%;
+    border-radius: 35px;
+    opacity: 0.5;
+}
+
+.list ul{
+    list-style-type: none;
+}
+.list_img{
+   width: 43px;
+   border-radius: 30px;
+   margin-top: 2px;
+   margin-left: 2px;
+}
+.list{
+  margin-top: 40px;
+  margin-left: 30px;
+}
+.song_list{
+    color: black;
+    border: 2px solid wheat;
+    width: 42%;
+    height: 45px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    border: none;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+ .song_name{
+    padding: 2% 4%;
+}
+.song_time{
+    padding: 2% 4%;
+}
+.buttons{
+    background-color: black;
+    margin-top: 1rem;
+    height: 80px;
+    text-align: center;
+}
+#track{
+    width: 70%;
+}
+#btn{
+    color: red;
+    font-size: 25px;
+}
+.track_name{
+    color: white;
+}
+@media (min-width:500px) and (max-width:1000px){
+    #cont{
+        width: 90%;
+    }
+.back{
+    height: 82%;
+    width: 90%;
+}
+#vd{
+    height: 100%;
+    width: 90%;
+    margin-left: 3%;
+}
+.list{
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+  .song_list{
+
+    width: 65%;
+    height: 40%;
+    font-size: 100%;
+}
+.song_name{
+    padding: 0;
+    padding-top: 2%;
+}
+}
+@media(max-width:500px){
+    body{
+        background-color:red;
+    }
+    .head img{
+          height: 35%;
+          width: 15%;
+    }
+    .head h1{
+        font-size: 200%;
+    }
+    .head div{
+        display: none;
+    }
+    #cont{
+        border: 2px solid black;
+        width: 90%;
+    }
+    .song_list{
+        width: 95%;
+        height: 10%;
+        margin-top: 2%;
+        margin-bottom: 3%;
+    }
+    .list{
+        margin-left: 3%;
+      }
+    .song_name{
+        padding: 0;
+        font-size: 100%;
+        padding-top: 3%;
+        padding-left: 4%;
+    }
+    .song_time{
+        padding: 2%;
+    }
+    .buttons{
+        margin-top: 1%;
+        height: 10%;
+    }
+    .back{
+        display: none;
+    }
+}
+@media (min-width:1000px) and (max-width: 3000px) {
+/* #cont{
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 30px;
+    height: 100%;
+    width: 80%;
+    background-image:url(./images/bg.jpg);
+    border-radius: 35px;
+}
+.back{
+    position: absolute;
+    z-index: -1;
+    background-color: black;
+    height: 560px;
+    width: 1190px;
+    border-radius: 30px;
+}
+#vd{
+    height: 560px;
+    width: 1200px;
+    border-radius: 35px;
+    opacity: 0.5;
+} */
+  }

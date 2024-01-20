@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./MusicSystem.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/c404421f7f.js" crossorigin="anonymous"></script>
+    <title>Spotify Music : play and listen for free</title>
+</head>
+<body>
+    <header class="head">
+        <img src="./images/logo.png" alt="" height="100px">
+        <h1>Spotify</h1>
+        <div>
+        <h2>Home</h2>
+        <h2>About</h2>
+        </div>
+    </header>
+        <div id="cont">
+         <div class="back">
+            <video src="" id="vd" muted value="0" ></video>
+         </div>
+          <div class="list">
+             <div class="song_list" id="1">
+                <img src="" alt="" class="list_img">
+                <span class="song_name">Let me love you</span>
+                <span class="song_time">3.34</span>
+             </div>
+             <div class="song_list" id="2">
+                <img src="" alt="" class="list_img">
+                <span class="song_name">Let me love you</span>
+                <span class="song_time">2.04</span>
+             </div>
+             <div class="song_list" id="3">
+                <img src="" alt="" class="list_img">
+                <span class="song_name">Let me love you</span>
+                <span class="song_time">1.40</span>
+             </div>
+             <div class="song_list" id="4">
+                <img src="" alt="" class="list_img">
+                <span class="song_name">Let me love you</span>
+                <span class="song_time">2.54</span>
+             </div>
+             <div class="song_list" id="5">
+                <img src="" alt="" class="list_img">
+                <span class="song_name">Let me love you</span>
+                <span class="song_time">2.34</span>
+             </div>
+             <div class="song_list" id="6">
+                <img src="" alt="" class="list_img">
+                <span class="song_name">Let me love you</span>
+                <span class="song_time">3.04</span>
+             </div>
+             <div class="song_list" id="7">
+                <img src="" alt="" class="list_img">
+                <span class="song_name">Let me love you</span>
+                <span class="song_time">3.34</span>
+             </div>
+             <div class="song_list" id="8">
+                <img src="" alt="" class="list_img">
+                <span class="song_name">Let me love you</span>
+                <span class="song_time">2.34</span>
+             </div>
+             </div>
+          </div>
+        </div>
+        <div class="buttons">
+         <div>
+            <span class="track_name"></span>
+         </div>
+         <input type="range" name="range" id="track" min="0"  value="0" max="100">
+         <div id="btn">
+            <i class="fa-solid fa-backward" ></i>
+            <i class="fa-solid fa-pause"></i>
+            <i class="fa-solid fa-play"></i>
+            <i class="fa-solid fa-forward" id="next"></i>
+         </div>
+        </div>
+    <script src="./MusicSystem.js"></script>
+</body>
+</html>
